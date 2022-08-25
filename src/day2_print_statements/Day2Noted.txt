@@ -1,0 +1,70 @@
+public static void main(String[] args) -> main method
+        -> main method is how we can run java codes, for now this is what we always need to run anything
+
+System.out.println(); -> this is how we print on to the console
+
+Intellij components;
+    src; source folder
+    package; folder
+    class; java file
+    console; window at the bottom of our program. It displays the output of a program.
+
+In java ;
+    java does not care about space sensitivity
+    java cares about case sensitivity
+
+    to print characters use double quotations
+
+SHORTCUTS:
+        Mac/Windows
+
+    copy : command / control + c
+    paste : command / control + v
+    cut : command / control + x
+    undo : command / control + z
+    select everything : command / control + a
+
+        To take a ScreenShot:
+
+            mac: command + shift + 5
+            windows: control + shift + s
+
+Intellij Shortcuts:
+    main -> main method
+    sout -> system.out.println();
+
+    comment -> hgihlight what lines you want to do comment , then command / control + /
+
+In intellij, we make comments sometimes to explain what the codes are for or what they mean and they don't get executed
+There are 3 types ;
+    - // this one is for single line comment
+    - /*
+        this one is for multiple line comments
+        */
+    - /**
+        *
+        *
+        *
+        */   -> this one is for java doc comment -- similar to multi line, it just provides additional funtions,
+                helps to generate HTML documentation
+
+
+    TODO: add in a comment to mark something as a todo item.
+    // todo: you can open it on bottom left todo menu or/ view -> tool windows -> todo
+
+
+   print vs println
+    print(); print on the same line on the console, does NOT break the line
+    println(); print whatever you give on the current line, the it will go to the next line
+
+ESCAPE SEQUENCES;
+
+    - if you want to print certain characters that exist in java syntax we need to use the escape sequences syntax
+      & we will use \ this sign first then the character
+
+        code     |  output
+        \"  "\      ""
+        \\ \\       \
+        \' '\       ''
+        \t          tab   -> space
+        \n          next line
