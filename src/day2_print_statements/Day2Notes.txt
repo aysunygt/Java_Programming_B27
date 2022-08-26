@@ -1,3 +1,5 @@
+06/10/2022 -> Friday day 2
+
 public static void main(String[] args) -> main method
         -> main method is how we can run java codes, for now this is what we always need to run anything
 
@@ -30,10 +32,11 @@ SHORTCUTS:
             windows: control + shift + s
 
 Intellij Shortcuts:
-    main -> main method
+    main , psvm -> main method
     sout -> system.out.println();
+    soutv -> prints aa value that you want to print
 
-    comment -> hgihlight what lines you want to do comment , then command / control + /
+    comment -> highlight what lines you want to do comment , then command / control + /
 
 In intellij, we make comments sometimes to explain what the codes are for or what they mean and they don't get executed
 There are 3 types ;
@@ -68,3 +71,20 @@ ESCAPE SEQUENCES;
         \' '\       ''
         \t          tab   -> space
         \n          next line
+
+Naming Conventions
+    - Package : lowercase, no space, can use underscores
+            Ex: today_is_monday
+
+    - Classes (java files): First letter is uppercase, then the rest are camel case (PascalCase)
+            PascalCase : when you want to represent multiple words together all of the each letter start with uppercase
+                Ex: TodayIsMonday
+
+    -Variables: camelCase. The first word start with lowerCase, then every other word after should start with an uppercase letter
+                Ex: todayIsMonday
+
+
+
+
+
+
