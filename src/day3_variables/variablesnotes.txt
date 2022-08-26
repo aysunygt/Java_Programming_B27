@@ -1,0 +1,57 @@
+06/13/2022 -> Monday Day 3
+
+-- Variables are containers for storing data/information values
+-- Benefits are -> Improves the re-usability of the data multiple times
+        helps to reduce hard coding
+-- The value store din a variable can be changed during program execution
+-- Variables must be declared before use
+-- variables names should be readable
+-- When variable names contain two or more words, use camelCase
+-- There are 2 Java Data Types
+    1. Primitive
+          - integer(whole numbers) -> byte, short, int (default by compile) , long
+          - float - point numbers -> double (default by compiler), float
+          - Characters -> char
+          - Boolean -> boolean
+
+    2. Non- Primitive
+          - String
+          - Array
+          - Classes
+          - Etc
+
+   Difference between types; how much memory is take for each variable
+
+   whole numbers are int by default, so if we need a big number that in cannot hold, the program will not compile, so to fic this we will use L or l at the end of the number to tell the compiler the number is a long type, not an int type
+
+   Float numbers are double by default, so if we ever want to make a float variable we will need to use F or f with the number to tell the compiler it is a float number, not a double number
+
+   - Concatenation:
+    we can use the + sign to combine variables with characters
+        -> we have usef it for making messages
+----------------------------------------
+  SYNTAX:
+        dataType variableName = value;
+
+        int age = 26;
+----------------------------------------
+Rules for Variable Names;
+
+    - the first character must be one of the letters a-z or A-Z, and underscore(_), or a dollar sign($)
+    - after the first character, you may use letters a-z or A-Z, the digits, underscore(_), or dollar sign ($)
+    - CANNOT include spaces
+
+    Valid example:
+        double myVar;
+        int MyVar1;
+        long $myvar;
+        char _myVar;
+        short my20thBirthday$;
+
+    Invalid Example:
+        byte 1myVar;
+        short *myVar1;
+        int ageOfThe@Employer100;
+        long my20th Birthday$;
+
+
