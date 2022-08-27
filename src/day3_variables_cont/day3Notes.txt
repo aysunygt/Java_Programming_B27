@@ -1,0 +1,40 @@
+06/14/2022 -- Tuesday
+Continuing variables
+---------------------------
+Character type:
+    Char: it holds a single character
+        a char value is given with a single quote ' '
+        ex: char first = 'a';
+
+    Unicode: every character has number related to it
+         ASCII : portion of the unicode
+
+    -> System.out.println(first + second + third + fourth + fifth); // boyle yaparsak malesef bize char yaptiklarimizi vermez yani char ile concetenate yapamazsin.. hepsi tek tek sout yapman lazim
+
+     diyelim ki
+
+    System.out.println("My name is " + first + second + third + fourth + fifth); // boyle yaptigimizda durum cok degisiyor. eger String eklersen sen bu code a o zaman concatanation oluyor ve sana asil olmasi gereken sonucu veriyor -> My name is Aysun. O double quotation leri cikarirsak tekrardan bize sadece sayi vericektir.
+    ----------------------------------------
+
+ Non Primitive types;
+    String: not a primitive datatype, object type
+
+    value is multiple character, sequence of character. Use double quotations
+
+ Q: what is the difference between 'A' and "A"?
+        the single quote 'A' is a char type
+        the double quote "A" is a String type
+
+        difference is the type in the code. If we printed both, they would look the same
+        non primitive types take more memory.. So String will take more memory in the computer
+
+---------------------------------------------
+
+Concatenation:
+    + sign used with String
+    combine anything with the String and the result of the concatenation is String type
+
+Code execution:
+    - top to bottom
+    - left to right
+
