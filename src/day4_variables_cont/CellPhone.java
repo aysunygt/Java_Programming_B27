@@ -1,4 +1,4 @@
-package day3_variables_cont;
+package day4_variables_cont;
 
 public class CellPhone {
     public static void main(String[] args) {

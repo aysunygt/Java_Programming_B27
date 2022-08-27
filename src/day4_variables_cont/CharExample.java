@@ -1,4 +1,4 @@
-package day3_variables_cont;
+package day4_variables_cont;
 
 public class CharExample {
     public static void main(String[] args) {
