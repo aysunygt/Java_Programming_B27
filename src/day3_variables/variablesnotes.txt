@@ -20,6 +20,8 @@
           - Classes
           - Etc
 
+     [Smallest] byte -> short -> int -> long -> float -> double [largest]
+
    Difference between types; how much memory is take for each variable
 
    whole numbers are int by default, so if we need a big number that in cannot hold, the program will not compile, so to fic this we will use L or l at the end of the number to tell the compiler the number is a long type, not an int type

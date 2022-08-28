@@ -1,0 +1,36 @@
+06/16/2022 -- Thursday
+Arithmetic Operators
+------------------------------
+Primitive Casting:
+    -> convert from one primitive datatype to another one.
+        [Smallest] byte -> short -> int -> long -> float -> double [largest]
+
+        Widening Convention:
+            go from smaller datatype to bigger datatype
+            this happens automatically
+
+                Ex:  int i = 10;
+                     long l =i;   // this is automatic
+
+        Narrowing Convention:
+            go from a bigger datatype to smaller datatype
+            need t manually cast
+
+            syntax:
+                smallerType varName= (smallerType) otherBiggerVariable
+
+                Ex:
+                    long a = 50L;
+                    short s = (short) a;
+
+----------------------------------------------
+Arithmetic Operators
+    + addition -> adds one value to another
+    - subtraction -> subtracts one value from another
+    / division -> divides two values
+    * multiplication -> multiplies two values
+    % modulus -> divides two values and returns the remainder
+
+
+
+
