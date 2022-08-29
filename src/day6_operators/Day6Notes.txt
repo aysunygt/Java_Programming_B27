@@ -1,0 +1,86 @@
+06/17/2022 -- Friday
+Operators
+------------------
+Unary Operators
+    + -> Unary Plus Operator - Indicates positive value
+    - -> Unary Minus Operator - Negates an expression or value
+    ++ -> Increment Operator - Increments a value by 1
+    -- -> Decrement Operators - Decrements a value by 1
+
+    There are two types of Increment/Decrement
+
+        -Pre:
+            - pre increment: increments the value before it is used in the expression
+                ++num
+            - pre decrement: decrements the value before it is used in the expression
+                --num
+
+               Ex:
+                    int a = 25;
+                    System.out.println(++a);   // becomes 26 hemen yani a'yi 26 yaptik hemen
+                    System.out.println(--a);   // becomes 25, yani 26 yaptigimiz a'yi 25 e geri aldik
+        -Post ;
+            - post increment: increments the value after it is used in the expression
+                num++
+            - post decrement: decrements the value after it is used in the expression
+                num--
+
+            Ex:
+                    int b = 25;
+                    System.out.println(a++); // once kendini tekrarliyor sonra siradakine geciyor yani cevap yine 25
+                    System.out.println(a--); //
+
+ --------------------------------------------------
+
+ Updating variables;
+
+        int z = 10; // we can update the variable by the following syntaxes;
+            z = 1;
+              or
+            z = z +1;
+              or
+            z += 1;
+              or
+            z++; or ++z;
+---------------------------------------------------
+
+Relational Operators
+    - the returns BOOLEAN value (true or false)
+
+    >  greater than
+    >= greater than or equal to
+    <  less than
+    <= less than or equal to
+    == equals
+    != not equals
+
+    What is the difference between = and ==
+
+        in java we use the = as the assignement operator
+        in java we use the == to compare the values to check if they are equal
+---------------------------------------
+Logical Operators
+
+        &&   --   and logic
+            false - false  = false
+            false - true   = false
+            true  - false  = false
+            true  - true   = true
+                  - Sooo; all of them needs to be true to be true.
+
+        ||   --    or
+           - one of them needs to be true to be true;
+
+        !    --   not
+           false -> true
+           true  -> false
+                 - flips the boolean logic
+
+    I want to do this:
+        5 < number < 10 --> this is not valid java syntax
+
+        in java:
+
+        number > 5
+        number < 10
+
