@@ -1,0 +1,52 @@
+Short Circuit:
+    2 operators. More efficient in execution. When the code runs left to right, if the result of the boolean is known it doesn't need to continue executing
+
+            && || vs & \
+
+            - double && ||
+                program will not keep running when the result is known
+
+            - single & |
+                program will run all  the code left to right always, no matter if the result of the boolean is already determined
+
+------------------------------------------------
+** SCANNER **
+    -   Scanner is a CLASS that has METHODS that allows us to type values in the console
+    - Class are java files
+    - Methods are blocks of code that are ready to use
+    - Why are we using Scanner?
+        * to avoid hard code. Get the idea of how to use information that comes form outside of the side
+
+    - How do we use Scanner?
+        1) import the class
+            import: allows us to use a file that is in a different package
+            - order of a java file;
+                package -> imports -> class   = PIC
+
+            Scanner is in   java.util
+
+            Syntax:
+
+                import packageName.className;
+                import java.util.Scanner;
+
+        2) create a Scanner object
+            Scanner name = new Scanner(System.in);
+
+            common names for the object: scan, scanner, input, keyboard, in
+
+        3) use/ run methods from the object
+
+            syntax to call method:
+                object.method()
+
+               nextByte()
+               nextShort()
+               nextInt()  **
+               nextLong()
+               nextFloat()
+               nextDouble()  **
+               nextBoolean()
+               next()
+               nextLine()  **
+
