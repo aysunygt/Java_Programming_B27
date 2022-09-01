@@ -1,4 +1,4 @@
-package day7_scanner;
+package day7_operators_andScanners;
 
 import java.util.Scanner;
 

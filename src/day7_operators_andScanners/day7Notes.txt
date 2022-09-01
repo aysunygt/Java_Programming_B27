@@ -1,3 +1,5 @@
+06/21/2022 -- Tuesday
+Day 7 -- operators practice && intro to scanners
 Short Circuit:
     2 operators. More efficient in execution. When the code runs left to right, if the result of the boolean is known it doesn't need to continue executing
 
