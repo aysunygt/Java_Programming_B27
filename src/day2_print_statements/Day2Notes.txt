@@ -24,6 +24,7 @@ SHORTCUTS:
     paste : command / control + v
     cut : command / control + x
     undo : command / control + z
+    to format: option + command + l
     select everything : command / control + a
 
         To take a ScreenShot:
