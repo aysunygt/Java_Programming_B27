@@ -25,6 +25,7 @@ SHORTCUTS:
     cut : command / control + x
     undo : command / control + z
     select everything : command / control + a
+    Sharing a code in DISCORD:    ``` code ```
 
         To take a ScreenShot:
 

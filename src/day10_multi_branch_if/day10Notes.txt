@@ -1,0 +1,43 @@
+06/27/2022 -- Monday
+Multi Branch If Statements / Ternary
+----------------------------------------
+
+Multi Branch:
+    Whenever there is multiple conditions that are related we can use the multi branch to handle them..
+
+    Execution for multi branch : the first condition is checked, if it is true, the first block is executed, otherwise(false) it will check the next conditions..
+
+    if(boolean 1) {
+        // statements that get executed when boolean 1 is TRUE
+    } else  if ( boolean 2 ) {
+        //statements that get executed when boolean 2 is TRUE
+    } else if ( boolean 3 ) {
+        // statements that get executed when boolean 3 is TRUE
+    }
+
+
+    NOTE : you can declare as many ELSE IF blocks are needed
+    NOTE: you can add ELSE at the end, it is optional
+    NOTE: once a condition is true and its code block is executed the other conditions are NOT checked..
+    NOTE: multi branch statements are used to make the code more efficient, more readable
+    ---------------------------------------------
+
+IF without BRACKETS
+
+    if statements can be created without brackets, but we will not be able to write multiple statements
+
+    If without brackets, will execute only the next line after if
+
+    Take away: always use brackets
+
+ ------------------------------------------------
+
+ TERNARY
+
+    - different way to write an if statement
+
+    -   returnValue = boolean_expression ? trueValue : falseValue;
+
+            ? -> if
+            : -> else
+
